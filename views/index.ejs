@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="traceparent" content="<%= traceparent %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OPTL</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <br/>
+    <br/>
+    <div>页面 http://localhost:3000 </div>
+    <div>接口 http://localhost:3000/api/getUsername</div>
+    <br/>
+    <div>traceId: <%= traceId %></div>
+    <a href="<%= queryUrl %>">去天机阁查询该trace</a>
+    <script type="text/javascript" src="bundle.js"></script>
+</body>
+
+</html>
